@@ -1,0 +1,21 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+	    
+		System.out.println("Enter sales: ");
+	    double sales = sc.nextDouble();
+	   	   
+	   if((sales>=1000)&&(sales<=2000))
+	      System.out.println("The commision rate is 6%");
+	   else if((sales>=2001)&&(sales<=4000))
+	      System.out.println("The commision rate is 10%");
+	   else if(sales>=4001)
+	      System.out.println("The commision rate is 15%");
+
+	}
+
+}
