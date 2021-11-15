@@ -1,0 +1,26 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise2 {
+	 /*Guna scanner input, masukkan satu nombor integer.
+    Bahagikan nomber tersebut dengan 5, jika ia berbaki dengan 0, maka print nomber tersebut adalah odd. 
+    Bahagikan nombor tersebut dengan 2, jika baklinya adalah kosong, maka print nomber tersebut ialah even
+   */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int num1;
+		
+		System.out.print("ENTER 1 NUMBER: ");
+		num1 = sc.nextInt();
+		
+		if(num1%5!=0)
+			System.out.print("number "+num1+" is odd");
+		else if(num1%2==0)
+		    System.out.print("number "+num1+" is even");
+
+
+		
+
+	}
+
+}
