@@ -1,0 +1,30 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner sc = new Scanner(System.in);
+		 int number_apple,number_orange;
+	     double price_apple,price_orange,price,total_price;
+	     
+	     System.out.println("Enter number of apple: ");
+	     number_apple = sc.nextInt();
+	     System.out.println("Enter number of orange: ");
+	     number_orange = sc.nextInt();
+	     
+	     price_apple = number_apple*10;
+	     price_orange = number_orange*20;
+	     price = price_apple + price_orange;
+	     
+	     if(price>200)
+	       total_price = price*0.9;
+	     else
+	       total_price = price;
+	       
+	     System.out.println("The price is RM "+total_price);
+	   
+	 
+	}
+
+}
