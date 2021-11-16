@@ -1,0 +1,20 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		double  cgpa;
+		
+		System.out.println("Enter your CGPA");
+		cgpa = sc.nextDouble();
+		
+		if(cgpa>=3.50)
+			System.out.println("You are an excellent student");
+		else
+			System.out.println("work harder, fighting");	
+
+	}
+
+}
