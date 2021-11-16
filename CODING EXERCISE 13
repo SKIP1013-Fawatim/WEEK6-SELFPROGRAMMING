@@ -1,0 +1,26 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int hours;
+		double monthly_allowance;
+		
+		System.out.println("Enter working hours ");
+     	hours = sc.nextInt();
+		
+	 
+		if(hours<=12)
+			monthly_allowance = (60*hours)*30;
+		else
+			monthly_allowance=((hours-12)*30*30)+(100*12*30);
+		
+		System.out.printf("allowance for part time lecturer is RM%,.2f",monthly_allowance);
+		
+
+	}
+
+}
+
