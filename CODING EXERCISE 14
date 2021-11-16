@@ -15,9 +15,9 @@ public class Exercise14 {
 		if(usage<50.0)
 			phone_bill=usage;
 		else if((usage>=50.0)&&(usage<100.0))
-			phone_bill=usage*0.5;
+			phone_bill=usage*1.5;
 		else if(usage>=100.0)
-			phone_bill=usage*0.8;
+			phone_bill=usage*2.8;
 		
 	System.out.printf("the phone bill is RM%.2f",phone_bill);
 	}
