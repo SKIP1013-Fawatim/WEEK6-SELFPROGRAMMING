@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int hours,charge;
+		
+		System.out.println("Enter hours for car use");
+		hours = sc.nextInt();
+		
+		if(hours<=24)
+			charge = 60;
+		else
+			charge=(hours-24)*5+60;
+		
+		System.out.println("charge of car rental is RM"+charge);
+		
+
+	}
+
+}
