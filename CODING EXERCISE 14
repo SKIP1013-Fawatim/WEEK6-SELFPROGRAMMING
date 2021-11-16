@@ -1,0 +1,25 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		double usage;
+		double phone_bill=0;
+		
+		System.out.println("Please enter your internet usage in gb");
+		usage = sc.nextDouble();
+		
+		if(usage<50.0)
+			phone_bill=usage;
+		else if((usage>=50.0)&&(usage<100.0))
+			phone_bill=usage*0.5;
+		else if(usage>=100.0)
+			phone_bill=usage*0.8;
+		
+	System.out.printf("the phone bill is RM%.2f",phone_bill);
+	}
+
+}
